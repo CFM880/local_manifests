@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+    <remote name="github" fetch="https://github.com/" />
+    <!--<remote name="gitee" fetch="https://gitee.com/" />-->
+    <remove-project name="platform/frameworks/base"/>
+    <project path="frameworks/base" name="CFM880/frameworks_base" remote="github" revision="android-12.0.0_r34"/>
+    <!--<project path="device/cfm880" name="CFM880/cfm880" remote="gitee" revision="master"/>-->
+    <project path="device/cfm880" name="CFM880/my_device" remote="github" revision="master"/>
+</manifest>
